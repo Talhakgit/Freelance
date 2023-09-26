@@ -17,5 +17,7 @@ namespace Business.Abstract
         Task<IResult> Add(string categoryName);
         Task<IResult> Update(Categories categories);
         Task<IResult> Delete(int categoryId);
+
+//test
     }
 }
