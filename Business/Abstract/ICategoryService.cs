@@ -18,6 +18,6 @@ namespace Business.Abstract
         Task<IResult> Update(Categories categories);
         Task<IResult> Delete(int categoryId);
 
-//test
+//talha
     }
 }
