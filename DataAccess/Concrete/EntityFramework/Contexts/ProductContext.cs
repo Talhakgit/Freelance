@@ -12,7 +12,7 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.;Initial Catalog=ProductView;Trust Server Certificate=True;Integrated Security=True;");
+            //optionsBuilder.UseSqlServer(@"Server=.;Initial Catalog=ProductView;Trust Server Certificate=True;Integrated Security=True;");
 
         }
         public DbSet<Categories> Categories { get; set; }
